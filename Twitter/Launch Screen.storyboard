@@ -16,13 +16,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="TwitterLogo" translatesAutoresizingMaskIntoConstraints="NO" id="HkP-3f-Vt3">
-                                <rect key="frame" x="122" y="239" width="120" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Twitter_Logo_Blue" translatesAutoresizingMaskIntoConstraints="NO" id="mXB-6O-mMI">
+                                <rect key="frame" x="-11" y="105" width="400" height="400"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mXB-6O-mMI" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="105" id="08C-eg-amR"/>
+                            <constraint firstAttribute="trailing" secondItem="mXB-6O-mMI" secondAttribute="trailing" constant="-14" id="AUO-Ga-RdB"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="mXB-6O-mMI" secondAttribute="bottom" constant="162" id="EnD-25-db0"/>
+                            <constraint firstItem="mXB-6O-mMI" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="-11" id="JVh-zL-Hjq"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -31,6 +36,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="TwitterLogo" width="120" height="120"/>
+        <image name="Twitter_Logo_Blue" width="400" height="400"/>
     </resources>
 </document>
