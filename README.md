@@ -49,5 +49,4 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://user-images.githubusercontent.com/57808274/114906218-ad39c400-9dce-11eb-9e0c-2c3fbd1e2eb6.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
+<img src='http://g.recordit.co/Rex638zDxQ.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
